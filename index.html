@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apresentação - Marianna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Marianna</h1>
+    <nav class="nav">
+      <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      <ul class="nav-list">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="mid">
+    <section id="home" class="section">
+      <h2>Bem-vindo ao meu site de apresentação!</h2>
+      <p>Olá! Meu nome é Marianna e este é um pequeno site para me apresentar a vocês.</p>
+    </section>
+
+    <section id="about" class="section">
+      <h2>Sobre Mim</h2>
+      <p>Sou apaixonada por aprender sobre medicina veterinária e adoro desafios. Estou animada para aprender e compartilhar experiências com a turma!</p>
+    </section>
+
+    <section id="hobbies" class="section">
+      <h2>Meus Hobbies</h2>
+      <p>No meu tempo livre, gosto de:</p>
+      <ul>
+        <li>Assistir filmes</li>
+        <li>Pintar as unhas</li>
+        <li>Cuidar de pets</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="section">
+      Meu sonho é ser veterinária e vou conseguir ser a melhor nisso!
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Marianna. Obrigado pela visita!</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-list').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
